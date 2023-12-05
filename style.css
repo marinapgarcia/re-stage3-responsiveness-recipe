@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Source Serif 4', serif;
+  padding: 5.3rem 3.7rem;
+}
+
+main {
+  max-width: 32.0rem;
+  margin: 0 auto;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.7rem;
+  margin-bottom: 3.4rem;
+}
+
+.intro img{
+  max-width: 30rem;
+}
+
+h1{
+  color: #A54328;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;  
+}
+
+p, li{
+  color: #A54328;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prepare-mode{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+ul, ol{
+  list-style-position: inside;
+}
+
+h2{
+  color: #A54328;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button{
+  display: flex;
+  width: 9.4rem;
+  height: 3.1rem;
+  padding: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-style: none;
+
+  margin-top: 1.7rem;
+
+  border-radius: 5.669px;
+  background: #A54328;
+
+  color: #FFF;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7rem
+}
+
+@media (min-width: 1440px){
+  body{
+    padding: 9.5rem 14.5rem;
+    align-self: center;
+    position: relative;
+    
+    background: rgba(255, 255, 255, 0.5) url('images/background\ 1.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  main{
+    max-width: 1149px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro{
+    max-width: 435px;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+  
+  p,li,h2{
+    font-size: 2rem;
+  }
+
+  .prepare-mode{
+    max-width: 525px;
+  }
+
+  button{
+    width: 13rem;
+    height: 4.5rem;
+    padding: 1.6rem;
+
+    margin-top: 2.4rem;
+    
+    font-size: 1.4rem;
+  }
+}
+
+
